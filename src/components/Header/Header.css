@@ -1,0 +1,24 @@
+.header-area{
+    text-align: center;
+}
+.header-area .logo{
+    height: 70px;
+}
+.nav-bar{
+    background-color: black;
+}
+.nav-bar ul{
+    list-style: none;
+    display: flex;
+}
+.nav-bar .nav-bar-item{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+    line-height: 40px;
+    padding: 5px;
+}
+.nav-bar .nav-bar-item:hover{
+    background-color: lightGray;
+}
