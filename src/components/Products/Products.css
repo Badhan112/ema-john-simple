@@ -7,10 +7,11 @@
 .product-details .product-info{
     margin-left: 10px;
 }
-.product-details .product-info .product-name{
+.product-name{
     color: blue;
+    font-weight: 400;
 }
-.product-details .product-info .add-cart-btn{
+.add-cart-btn{
     width: 200px;
     background-color: greenyellow;
     border: 1px solid grey;
