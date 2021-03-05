@@ -22,7 +22,7 @@ const Shop = () => {
         <div className="shop">
             <div className="products">
                 {
-                    products.map(product => <Products product={product} handleAddBtnEventListener={handleAddBtnEventListener} key={product.key}></Products>)
+                    products.map(product => <Products product={product} handleAddBtnEventListener={handleAddBtnEventListener} showAddtoCart={true} key={product.key}></Products>)
                 }
             </div>
             <Cart cart={cart}></Cart>
